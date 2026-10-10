@@ -1,8 +1,14 @@
-# Compiled Form Modules
-*.fmx
+# Archivos del sistema operativo
+.DS_Store
+Thumbs.db
 
-# Compiled Menu Modules
-*.mmx
+# Temporales de Oracle Data Modeler / SQL Developer
+*.log
+*.tmp
+*.bak
+.system/
+*.dmd.bak
 
-# Compiled Pre-Linked Libraries
-*.plx
+# Configuración local de IDEs
+.idea/
+.vscode/
