@@ -1,0 +1,74 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B319AE00-54C6-764E-7752-2CCF6B9C1375" name="COMUNA">
+<createdBy>Nacho</createdBy>
+<createdTime>2026-10-12 04:50:46 UTC</createdTime>
+<ownerDesignName>modelo_caso1_forestal</ownerDesignName>
+<engineerTo>
+<item key="048E61C3-80DE-33AB-0E89-FFDDF8C16426" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="codigo_comuna" id="532E994E-AA03-E118-5FA1-D39B48F44E2A">
+<createdBy>Nacho</createdBy>
+<createdTime>2026-10-12 04:55:13 UTC</createdTime>
+<ownerDesignName>modelo_caso1_forestal</ownerDesignName>
+<engineerTo>
+<item key="048E61C3-80DE-33AB-0E89-FFDDF8C16426" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre_comuna" id="4E42FB74-1CCA-0BF9-7AEB-F261E7C50CE2">
+<createdBy>Nacho</createdBy>
+<createdTime>2026-10-12 04:55:30 UTC</createdTime>
+<ownerDesignName>modelo_caso1_forestal</ownerDesignName>
+<engineerTo>
+<item key="048E61C3-80DE-33AB-0E89-FFDDF8C16426" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="codigo_region" id="D75D57EF-1FED-354F-8CF8-356FDDF6C46F">
+<createdBy>Nacho</createdBy>
+<createdTime>2026-10-12 05:03:47 UTC</createdTime>
+<generatorID>61EE2688-296C-4195-CC22-679350B4C932</generatorID>
+<ownerDesignName>modelo_caso1_forestal</ownerDesignName>
+<engineerTo>
+<item key="048E61C3-80DE-33AB-0E89-FFDDF8C16426" value="true"/>
+</engineerTo>
+<referedAttribute>97C9E042-2A30-5F14-35A8-315FC00B6A7A</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="6295B28A-6377-19FC-DEAF-2F1CCD6D51FB" name="COMUNA PK">
+<createdBy>Nacho</createdBy>
+<createdTime>2026-10-12 04:55:27 UTC</createdTime>
+<ownerDesignName>modelo_caso1_forestal</ownerDesignName>
+<engineerTo>
+<item key="048E61C3-80DE-33AB-0E89-FFDDF8C16426" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>532E994E-AA03-E118-5FA1-D39B48F44E2A</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,14 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKArc class="oracle.dbtools.crest.model.design.relational.FKArc" directorySegmentName="seg_0" id="F06D712C-A5EE-5AA9-93AE-7EC2DE75415C" name="FKArc_1">
+<createdBy>Nacho</createdBy>
+<createdTime>2026-10-12 05:41:49 UTC</createdTime>
+<ownerDesignName>modelo_caso1_forestal</ownerDesignName>
+<mandatory>false</mandatory>
+<reverseArc>true</reverseArc>
+<table>0D136766-F67A-B644-7D3E-9EF60DAA72F0</table>
+<fkeys>
+<fkeyID>C72351E5-BB4F-F66A-F895-B3D0FB133C50</fkeyID>
+<fkeyID>C5034406-FF1F-719B-D439-2B7FB0C23FB2</fkeyID>
+<fkeyID>458B6347-B5B8-F7E3-1B80-4BC4D0889E2E</fkeyID>
+</fkeys>
+</FKArc>

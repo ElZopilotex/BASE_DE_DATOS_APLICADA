@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="3C7FAED0-94DB-FDD7-9113-52458DF5A0AD" containerWithKeyObject="BADF8C4A-1CAD-13A3-C3B0-9AA03337E27D" localFKIndex="1AD281BF-8D89-A06F-0BF3-01407701D903" name="RODAL_ESPECIE_FK">
+<createdBy>Nacho</createdBy>
+<createdTime>2026-10-12 05:41:49 UTC</createdTime>
+<generatorID>E2F2CB89-F05D-ADDE-354D-BA593867469F</generatorID>
+<ownerDesignName>modelo_caso1_forestal</ownerDesignName>
+<referredTableLongName>ESPECIE</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>C1548864-4E62-92D4-52E1-127AA9C9F43F</referredTableID>
+<keyObject>671F5AC2-DB3F-8578-60C2-440065ECEE35</keyObject>
+<referredKeyID>671F5AC2-DB3F-8578-60C2-440065ECEE35</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>codigo_especie</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

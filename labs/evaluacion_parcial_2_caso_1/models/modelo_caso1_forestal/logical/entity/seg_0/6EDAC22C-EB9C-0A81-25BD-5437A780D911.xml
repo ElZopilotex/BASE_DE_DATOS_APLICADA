@@ -1,0 +1,100 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="6EDAC22C-EB9C-0A81-25BD-5437A780D911" name="GUIA_DESPACHO">
+<createdBy>Nacho</createdBy>
+<createdTime>2026-10-12 05:34:54 UTC</createdTime>
+<ownerDesignName>modelo_caso1_forestal</ownerDesignName>
+<engineerTo>
+<item key="048E61C3-80DE-33AB-0E89-FFDDF8C16426" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="numero_guia" id="70B05E0A-1EE1-9EDF-7267-04EEE3A70586">
+<createdBy>Nacho</createdBy>
+<createdTime>2026-10-12 05:35:05 UTC</createdTime>
+<ownerDesignName>modelo_caso1_forestal</ownerDesignName>
+<engineerTo>
+<item key="048E61C3-80DE-33AB-0E89-FFDDF8C16426" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fecha_emision" id="94482FC4-0652-14A6-72BA-7CBEE9C52E88">
+<createdBy>Nacho</createdBy>
+<createdTime>2026-10-12 05:35:22 UTC</createdTime>
+<ownerDesignName>modelo_caso1_forestal</ownerDesignName>
+<engineerTo>
+<item key="048E61C3-80DE-33AB-0E89-FFDDF8C16426" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="volumen_m3" id="76967AE4-C55C-690A-E2C0-44F68251E166">
+<createdBy>Nacho</createdBy>
+<createdTime>2026-10-12 05:35:38 UTC</createdTime>
+<ownerDesignName>modelo_caso1_forestal</ownerDesignName>
+<engineerTo>
+<item key="048E61C3-80DE-33AB-0E89-FFDDF8C16426" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="patente_camion" id="FD8DCF42-676B-3C45-92FE-DA0081BDDC6E">
+<createdBy>Nacho</createdBy>
+<createdTime>2026-10-12 05:36:01 UTC</createdTime>
+<ownerDesignName>modelo_caso1_forestal</ownerDesignName>
+<engineerTo>
+<item key="048E61C3-80DE-33AB-0E89-FFDDF8C16426" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_faena" id="E15E9D35-D4E6-9C63-3409-ED106295407C">
+<createdBy>Nacho</createdBy>
+<createdTime>2026-10-12 05:38:46 UTC</createdTime>
+<generatorID>282091E4-2400-F0FA-9F17-CD5DEA98866F</generatorID>
+<ownerDesignName>modelo_caso1_forestal</ownerDesignName>
+<engineerTo>
+<item key="048E61C3-80DE-33AB-0E89-FFDDF8C16426" value="true"/>
+</engineerTo>
+<referedAttribute>4B162BD2-A1CB-FAF9-ED2F-D993CB57BF6D</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="6433A43B-D2B8-ABA6-802E-7550EE4E00BD" name="GUIA_DESPACHO PK">
+<createdBy>Nacho</createdBy>
+<createdTime>2026-10-12 05:35:18 UTC</createdTime>
+<ownerDesignName>modelo_caso1_forestal</ownerDesignName>
+<engineerTo>
+<item key="048E61C3-80DE-33AB-0E89-FFDDF8C16426" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>70B05E0A-1EE1-9EDF-7267-04EEE3A70586</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,33 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="643A8DD1-938F-1F63-AE6B-56DA763BD07C" name="OPERADOR_MAQUINARIA">
+<createdBy>Nacho</createdBy>
+<createdTime>2026-10-12 05:19:42 UTC</createdTime>
+<ownerDesignName>modelo_caso1_forestal</ownerDesignName>
+<engineerTo>
+<item key="048E61C3-80DE-33AB-0E89-FFDDF8C16426" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<hierarchicalParent>15982A03-A142-CE60-AD6F-763802C09321</hierarchicalParent>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="clase_licencia" id="7B2E910B-EEB5-66DA-A977-30134CE05DB9">
+<createdBy>Nacho</createdBy>
+<createdTime>2026-10-12 05:20:07 UTC</createdTime>
+<ownerDesignName>modelo_caso1_forestal</ownerDesignName>
+<engineerTo>
+<item key="048E61C3-80DE-33AB-0E89-FFDDF8C16426" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>5</dataTypeSize>
+<ownDataTypeParameters>5,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

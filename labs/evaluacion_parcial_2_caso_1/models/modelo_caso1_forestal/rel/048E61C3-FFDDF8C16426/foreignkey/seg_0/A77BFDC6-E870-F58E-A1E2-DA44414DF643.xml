@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="A77BFDC6-E870-F58E-A1E2-DA44414DF643" containerWithKeyObject="0D136766-F67A-B644-7D3E-9EF60DAA72F0" localFKIndex="C61CD55E-754A-B82C-E9B7-4CB6DE91B7A3" name="TRABAJADOR_TRABAJADOR_FK">
+<createdBy>Nacho</createdBy>
+<createdTime>2026-10-12 05:47:03 UTC</createdTime>
+<generatorID>4F38B647-9298-ECD6-EC5C-63F1A05DCC3B</generatorID>
+<ownerDesignName>modelo_caso1_forestal</ownerDesignName>
+<referredTableLongName>TRABAJADOR</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>0D136766-F67A-B644-7D3E-9EF60DAA72F0</referredTableID>
+<keyObject>CC029DE7-8B2C-CE89-C1BA-56E2E241C6FE</keyObject>
+<referredKeyID>CC029DE7-8B2C-CE89-C1BA-56E2E241C6FE</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>rut_trabajador</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

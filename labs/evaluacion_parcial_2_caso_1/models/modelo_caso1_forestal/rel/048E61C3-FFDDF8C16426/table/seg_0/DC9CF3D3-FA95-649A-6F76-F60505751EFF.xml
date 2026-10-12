@@ -1,0 +1,62 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DC9CF3D3-FA95-649A-6F76-F60505751EFF" name="CONTRATISTA">
+<createdBy>Nacho</createdBy>
+<createdTime>2026-10-12 05:41:48 UTC</createdTime>
+<generatorID>F5666888-CE23-583D-6AC4-B502D5ADCAD5</generatorID>
+<ownerDesignName>modelo_caso1_forestal</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="rut_contratista" id="95E3F8DB-3005-8503-7091-373DFEF0FA58">
+<createdBy>Nacho</createdBy>
+<createdTime>2026-10-12 05:41:48 UTC</createdTime>
+<generatorID>C93F5EA6-4A06-653B-6151-C6828117A94E</generatorID>
+<ownerDesignName>modelo_caso1_forestal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>12</dataTypeSize>
+<ownDataTypeParameters>12,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="razon_social" id="FD282081-7D3F-F876-1D36-1C23C60CACE1">
+<createdBy>Nacho</createdBy>
+<createdTime>2026-10-12 05:41:48 UTC</createdTime>
+<generatorID>B9B96BC3-E7FE-8C7D-C0EE-16E918CBFC88</generatorID>
+<ownerDesignName>modelo_caso1_forestal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150</dataTypeSize>
+<ownDataTypeParameters>150,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="telefono" id="995ABC47-FF28-BD4D-FE2A-1CEB6607B713">
+<createdBy>Nacho</createdBy>
+<createdTime>2026-10-12 05:41:48 UTC</createdTime>
+<generatorID>07D27693-BFD7-9CC8-3905-333F52E4FA52</generatorID>
+<ownerDesignName>modelo_caso1_forestal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="51023B10-2752-A422-6056-2236302C07FD" name="CONTRATISTA_PK">
+<createdBy>Nacho</createdBy>
+<createdTime>2026-10-12 05:41:48 UTC</createdTime>
+<generatorID>0C0157EC-74A0-C153-8278-D99BF0F7531E</generatorID>
+<ownerDesignName>modelo_caso1_forestal</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="95E3F8DB-3005-8503-7091-373DFEF0FA58"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="8156EA44-F55E-F1ED-7E47-B0A439679B5B" containerWithKeyObject="C8303463-9680-B0E7-3FF3-622AE74A48BE" localFKIndex="047ADCFB-1C22-802A-B6F7-4D56499AD390" name="FAENA_COSECHA_RODAL_FK">
+<createdBy>Nacho</createdBy>
+<createdTime>2026-10-12 05:41:49 UTC</createdTime>
+<generatorID>15DE956F-486E-422D-0996-51002FACCCBF</generatorID>
+<ownerDesignName>modelo_caso1_forestal</ownerDesignName>
+<referredTableLongName>RODAL</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>BADF8C4A-1CAD-13A3-C3B0-9AA03337E27D</referredTableID>
+<keyObject>128D11C2-1CBD-DC76-3E5A-C99200357222</keyObject>
+<referredKeyID>128D11C2-1CBD-DC76-3E5A-C99200357222</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>numero_rodal,PREDIO_rol_predio</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

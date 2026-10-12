@@ -1,0 +1,90 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="EDD32481-F29D-EEA2-40F2-306A92920BD9" name="PREDIO">
+<createdBy>Nacho</createdBy>
+<createdTime>2026-10-12 05:41:48 UTC</createdTime>
+<generatorID>51251F7E-5D25-C4F2-0B12-633CA389866B</generatorID>
+<ownerDesignName>modelo_caso1_forestal</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="rol_predio" id="820330A7-F1A8-476A-39AC-EAE8EBB8AD53">
+<createdBy>Nacho</createdBy>
+<createdTime>2026-10-12 05:41:48 UTC</createdTime>
+<generatorID>DBC6E071-099E-B31E-00B2-9CC6681D4CEA</generatorID>
+<ownerDesignName>modelo_caso1_forestal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre_predio" id="5CF428D2-FC89-F87D-30FE-987A38AACCF4">
+<createdBy>Nacho</createdBy>
+<createdTime>2026-10-12 05:41:48 UTC</createdTime>
+<generatorID>ED55A3B6-4B8F-C03A-873C-30A348695A33</generatorID>
+<ownerDesignName>modelo_caso1_forestal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="superficie_total_ha" id="F70190DA-CE15-8F0F-EC2E-AC13E9293CDE">
+<createdBy>Nacho</createdBy>
+<createdTime>2026-10-12 05:41:48 UTC</createdTime>
+<generatorID>BBC937B1-8AD2-2741-352C-AE98418886F6</generatorID>
+<ownerDesignName>modelo_caso1_forestal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="COMUNA_codigo_comuna" id="5C34BF87-3301-46E5-F5A6-96D1B3FB921B">
+<createdBy>Nacho</createdBy>
+<createdTime>2026-10-12 05:41:48 UTC</createdTime>
+<generatorID>0AB92280-E812-862D-92F8-A32C02D520F8</generatorID>
+<ownerDesignName>modelo_caso1_forestal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D3597596-58A2-85B7-DCE2-687DB961EAE8" referredColumn="9E2CF140-6EFC-C154-4DCD-82900B5F56A8"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="06062C0C-00E9-A80C-4DC1-EB38EF49A3DB" name="PREDIO_PK">
+<createdBy>Nacho</createdBy>
+<createdTime>2026-10-12 05:41:48 UTC</createdTime>
+<generatorID>D6BB9416-FE64-8A66-E46E-3D0693FDE14A</generatorID>
+<ownerDesignName>modelo_caso1_forestal</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="820330A7-F1A8-476A-39AC-EAE8EBB8AD53"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="126CC07D-8BBC-43E6-06C5-0B7CE848B067" name="PREDIO_COMUNA_FK">
+<createdBy>Nacho</createdBy>
+<createdTime>2026-10-12 05:41:49 UTC</createdTime>
+<generatorID>1C8B1BD7-34BA-98C1-93D3-23BCB44EC4EC</generatorID>
+<ownerDesignName>modelo_caso1_forestal</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5C34BF87-3301-46E5-F5A6-96D1B3FB921B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,64 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F6DB67A9-F571-3016-5330-1CAC0EB23269" name="OPERADOR_MAQUINARIA">
+<createdBy>Nacho</createdBy>
+<createdTime>2026-10-12 05:41:48 UTC</createdTime>
+<generatorID>643A8DD1-938F-1F63-AE6B-56DA763BD07C</generatorID>
+<ownerDesignName>modelo_caso1_forestal</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="rut_trabajador" id="32FC8688-B34C-FC1E-0AC3-2BDE6A47175C">
+<createdBy>Nacho</createdBy>
+<createdTime>2026-10-12 05:41:48 UTC</createdTime>
+<generatorID>793392C0-9C7F-7A29-031B-D0D1C46A4223</generatorID>
+<ownerDesignName>modelo_caso1_forestal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>12</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C5034406-FF1F-719B-D439-2B7FB0C23FB2" referredColumn="F2A08952-9538-8B86-55CD-381C405AB0D2"/>
+</associations>
+</Column>
+<Column name="clase_licencia" id="4A83E292-C451-CF15-33D9-EBD202B6182B">
+<createdBy>Nacho</createdBy>
+<createdTime>2026-10-12 05:41:48 UTC</createdTime>
+<generatorID>7B2E910B-EEB5-66DA-A977-30134CE05DB9</generatorID>
+<ownerDesignName>modelo_caso1_forestal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>5</dataTypeSize>
+<ownDataTypeParameters>5,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="41F597E2-54DA-8B80-C351-672CE2EC9D92" name="OPERADOR_MAQUINARIA_PK">
+<createdBy>Nacho</createdBy>
+<createdTime>2026-10-12 05:41:48 UTC</createdTime>
+<generatorID>6E250A34-5664-9E54-5089-1FF10B293FF9</generatorID>
+<ownerDesignName>modelo_caso1_forestal</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="32FC8688-B34C-FC1E-0AC3-2BDE6A47175C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6D6D2F90-EF30-F768-B1CA-3E1FFBC68FB2" name="OPERADOR_MAQUINARIA_TRABAJADOR_FK">
+<createdBy>Nacho</createdBy>
+<createdTime>2026-10-12 05:41:49 UTC</createdTime>
+<generatorID>72FA9E98-9572-48E8-DA3E-1DDB98CE9D91</generatorID>
+<ownerDesignName>modelo_caso1_forestal</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="32FC8688-B34C-FC1E-0AC3-2BDE6A47175C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,144 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C8303463-9680-B0E7-3FF3-622AE74A48BE" name="FAENA_COSECHA">
+<createdBy>Nacho</createdBy>
+<createdTime>2026-10-12 05:41:48 UTC</createdTime>
+<generatorID>65B54A34-6EB2-350E-1405-4FB40B4C6D87</generatorID>
+<ownerDesignName>modelo_caso1_forestal</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_faena" id="7FE682DF-9B6A-ADF6-3399-E26BCA102B39">
+<createdBy>Nacho</createdBy>
+<createdTime>2026-10-12 05:41:48 UTC</createdTime>
+<generatorID>4B162BD2-A1CB-FAF9-ED2F-D993CB57BF6D</generatorID>
+<ownerDesignName>modelo_caso1_forestal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha_inicio" id="F03AB7D2-9041-ED2F-BC44-C898AD8D3060">
+<createdBy>Nacho</createdBy>
+<createdTime>2026-10-12 05:41:48 UTC</createdTime>
+<generatorID>C84B74AC-7454-6937-342F-FC19ABD794BD</generatorID>
+<ownerDesignName>modelo_caso1_forestal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha_termino" id="A4EC3679-6EAF-6EAB-7BA0-D48066E04CA4">
+<createdBy>Nacho</createdBy>
+<createdTime>2026-10-12 05:41:48 UTC</createdTime>
+<generatorID>53845472-49DC-3092-0C9C-755C234359D0</generatorID>
+<ownerDesignName>modelo_caso1_forestal</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="estado_faena" id="B819981E-BD15-3A1D-6C77-292A9E7B44BA">
+<createdBy>Nacho</createdBy>
+<createdTime>2026-10-12 05:41:48 UTC</createdTime>
+<generatorID>108A6F82-420C-25AD-4FC6-3DBBA075515E</generatorID>
+<ownerDesignName>modelo_caso1_forestal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="RODAL_numero_rodal" id="38E7F359-7984-1365-F98D-880C8E1210BD">
+<createdBy>Nacho</createdBy>
+<createdTime>2026-10-12 05:41:48 UTC</createdTime>
+<generatorID>07EE7288-74D9-8A09-585F-93FDB92F0D8B</generatorID>
+<ownerDesignName>modelo_caso1_forestal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8156EA44-F55E-F1ED-7E47-B0A439679B5B" referredColumn="094465CF-BD06-D7E4-19EE-C7DE2339CAD8"/>
+</associations>
+</Column>
+<Column name="RODAL_PREDIO_rol_predio" id="27CAD02B-4830-F8A0-E77C-485CC55EFD5F">
+<createdBy>Nacho</createdBy>
+<createdTime>2026-10-12 05:41:48 UTC</createdTime>
+<generatorID>BE766FA8-B3C5-72F2-79CE-4D8E7DAAACA4</generatorID>
+<ownerDesignName>modelo_caso1_forestal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8156EA44-F55E-F1ED-7E47-B0A439679B5B" referredColumn="67AD7ECC-BEAF-BE6F-D0A3-F76B72DE6955"/>
+</associations>
+</Column>
+<Column name="CONTRATISTA_rut_contratista" id="A8ABAAF8-7E38-A86F-EE94-47F55E7282CA">
+<createdBy>Nacho</createdBy>
+<createdTime>2026-10-12 05:41:48 UTC</createdTime>
+<generatorID>FA8063B2-40DC-4C5E-D0AA-224459D758E9</generatorID>
+<ownerDesignName>modelo_caso1_forestal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>12</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B9DF3704-080E-0CBA-0453-39A276038B19" referredColumn="95E3F8DB-3005-8503-7091-373DFEF0FA58"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="FAC8E322-4C02-61B0-7B84-9170EE76D5AD" name="FAENA_COSECHA_PK">
+<createdBy>Nacho</createdBy>
+<createdTime>2026-10-12 05:41:48 UTC</createdTime>
+<generatorID>AD0221DE-A180-3B40-F055-B58D91623581</generatorID>
+<ownerDesignName>modelo_caso1_forestal</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7FE682DF-9B6A-ADF6-3399-E26BCA102B39"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="047ADCFB-1C22-802A-B6F7-4D56499AD390" name="FAENA_COSECHA_RODAL_FK">
+<createdBy>Nacho</createdBy>
+<createdTime>2026-10-12 05:41:49 UTC</createdTime>
+<generatorID>15DE956F-486E-422D-0996-51002FACCCBF</generatorID>
+<ownerDesignName>modelo_caso1_forestal</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="38E7F359-7984-1365-F98D-880C8E1210BD"/>
+<colUsage columnID="27CAD02B-4830-F8A0-E77C-485CC55EFD5F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="43A331CF-383C-6D2B-6A40-A973E7CACF20" name="FAENA_COSECHA_CONTRATISTA_FK">
+<createdBy>Nacho</createdBy>
+<createdTime>2026-10-12 05:41:49 UTC</createdTime>
+<generatorID>D60239FF-F83F-A232-103D-FD9B3E404367</generatorID>
+<ownerDesignName>modelo_caso1_forestal</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A8ABAAF8-7E38-A86F-EE94-47F55E7282CA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

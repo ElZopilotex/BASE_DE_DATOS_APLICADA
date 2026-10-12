@@ -1,0 +1,63 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B68DB7E3-69CC-9005-552C-17CD27E20328" name="BRIGADISTA">
+<createdBy>Nacho</createdBy>
+<createdTime>2026-10-12 05:41:48 UTC</createdTime>
+<generatorID>5682CE01-D29B-1608-C6EF-89B18467929F</generatorID>
+<ownerDesignName>modelo_caso1_forestal</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="rut_trabajador" id="9776A4D1-0778-F2FD-BC3D-8DD7ECFB091B">
+<createdBy>Nacho</createdBy>
+<createdTime>2026-10-12 05:41:48 UTC</createdTime>
+<generatorID>793392C0-9C7F-7A29-031B-D0D1C46A4223</generatorID>
+<ownerDesignName>modelo_caso1_forestal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>12</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="458B6347-B5B8-F7E3-1B80-4BC4D0889E2E" referredColumn="F2A08952-9538-8B86-55CD-381C405AB0D2"/>
+</associations>
+</Column>
+<Column name="fecha_ultimo_curso_incendios" id="1F9D8BE9-61F9-9B9F-7AF0-BC558182E77F">
+<createdBy>Nacho</createdBy>
+<createdTime>2026-10-12 05:41:48 UTC</createdTime>
+<generatorID>3AA2646E-AC28-50BB-5E63-8FBA77B81635</generatorID>
+<ownerDesignName>modelo_caso1_forestal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9E88B447-9284-7DBE-A2E4-F2D7EC968DDC" name="BRIGADISTA_PK">
+<createdBy>Nacho</createdBy>
+<createdTime>2026-10-12 05:41:48 UTC</createdTime>
+<generatorID>6E250A34-5664-9E54-5089-1FF10B293FF9</generatorID>
+<ownerDesignName>modelo_caso1_forestal</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9776A4D1-0778-F2FD-BC3D-8DD7ECFB091B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="44300308-7B59-0B97-25D8-ADFF92E9EF17" name="BRIGADISTA_TRABAJADOR_FK">
+<createdBy>Nacho</createdBy>
+<createdTime>2026-10-12 05:41:49 UTC</createdTime>
+<generatorID>71550CB0-30BB-4577-F0BB-7BCDEA9C041C</generatorID>
+<ownerDesignName>modelo_caso1_forestal</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9776A4D1-0778-F2FD-BC3D-8DD7ECFB091B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

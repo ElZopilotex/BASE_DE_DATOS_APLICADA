@@ -1,0 +1,117 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="C771DB6C-C94A-7BCC-E8BE-1220607C3DEF" name="RODAL">
+<createdBy>Nacho</createdBy>
+<createdTime>2026-10-12 04:51:22 UTC</createdTime>
+<ownerDesignName>modelo_caso1_forestal</ownerDesignName>
+<engineerTo>
+<item key="048E61C3-80DE-33AB-0E89-FFDDF8C16426" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="numero_rodal" id="83B50D11-EE9C-19E7-749F-9D75F96AE317">
+<createdBy>Nacho</createdBy>
+<createdTime>2026-10-12 04:57:29 UTC</createdTime>
+<ownerDesignName>modelo_caso1_forestal</ownerDesignName>
+<engineerTo>
+<item key="048E61C3-80DE-33AB-0E89-FFDDF8C16426" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="superficie_ha" id="44D0127C-C4B6-5732-5DA5-DBD0085085A0">
+<createdBy>Nacho</createdBy>
+<createdTime>2026-10-12 04:58:12 UTC</createdTime>
+<ownerDesignName>modelo_caso1_forestal</ownerDesignName>
+<engineerTo>
+<item key="048E61C3-80DE-33AB-0E89-FFDDF8C16426" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="anno_plantacion" id="E25224CE-70FB-AD29-1607-87A671A1DCBE">
+<createdBy>Nacho</createdBy>
+<createdTime>2026-10-12 04:58:37 UTC</createdTime>
+<ownerDesignName>modelo_caso1_forestal</ownerDesignName>
+<engineerTo>
+<item key="048E61C3-80DE-33AB-0E89-FFDDF8C16426" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="densidad_arboles_ha" id="EB9CE174-D2E1-5902-0C7E-3BB11416FEF0">
+<createdBy>Nacho</createdBy>
+<createdTime>2026-10-12 04:59:19 UTC</createdTime>
+<ownerDesignName>modelo_caso1_forestal</ownerDesignName>
+<engineerTo>
+<item key="048E61C3-80DE-33AB-0E89-FFDDF8C16426" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="codigo_especie" id="FD63405F-7240-A50F-C86D-E5870B06A14F">
+<createdBy>Nacho</createdBy>
+<createdTime>2026-10-12 05:06:09 UTC</createdTime>
+<generatorID>E2F2CB89-F05D-ADDE-354D-BA593867469F</generatorID>
+<ownerDesignName>modelo_caso1_forestal</ownerDesignName>
+<engineerTo>
+<item key="048E61C3-80DE-33AB-0E89-FFDDF8C16426" value="true"/>
+</engineerTo>
+<referedAttribute>6F59F842-102D-0BB6-3520-E3251A20287C</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="rol_predio" id="0DEEBDA8-7059-09DA-1934-703F918FDAAB">
+<createdBy>Nacho</createdBy>
+<createdTime>2026-10-12 05:07:17 UTC</createdTime>
+<generatorID>368E8BE1-04A8-1D67-1176-2089FDF86562</generatorID>
+<ownerDesignName>modelo_caso1_forestal</ownerDesignName>
+<engineerTo>
+<item key="048E61C3-80DE-33AB-0E89-FFDDF8C16426" value="true"/>
+</engineerTo>
+<referedAttribute>DBC6E071-099E-B31E-00B2-9CC6681D4CEA</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="80B04274-2468-13E9-29F1-61983DD2614E" name="RODAL PK">
+<createdBy>Nacho</createdBy>
+<createdTime>2026-10-12 04:58:10 UTC</createdTime>
+<ownerDesignName>modelo_caso1_forestal</ownerDesignName>
+<engineerTo>
+<item key="048E61C3-80DE-33AB-0E89-FFDDF8C16426" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>83B50D11-EE9C-19E7-749F-9D75F96AE317</attributeRef>
+<attributeRef>0DEEBDA8-7059-09DA-1934-703F918FDAAB</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

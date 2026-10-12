@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="458B6347-B5B8-F7E3-1B80-4BC4D0889E2E" containerWithKeyObject="B68DB7E3-69CC-9005-552C-17CD27E20328" localFKIndex="44300308-7B59-0B97-25D8-ADFF92E9EF17" name="BRIGADISTA_TRABAJADOR_FK">
+<createdBy>Nacho</createdBy>
+<createdTime>2026-10-12 05:41:49 UTC</createdTime>
+<generatorID>71550CB0-30BB-4577-F0BB-7BCDEA9C041C</generatorID>
+<ownerDesignName>modelo_caso1_forestal</ownerDesignName>
+<referredTableLongName>TRABAJADOR</referredTableLongName>
+<arc>F06D712C-A5EE-5AA9-93AE-7EC2DE75415C</arc>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>0D136766-F67A-B644-7D3E-9EF60DAA72F0</referredTableID>
+<keyObject>CC029DE7-8B2C-CE89-C1BA-56E2E241C6FE</keyObject>
+<referredKeyID>CC029DE7-8B2C-CE89-C1BA-56E2E241C6FE</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>rut_trabajador</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

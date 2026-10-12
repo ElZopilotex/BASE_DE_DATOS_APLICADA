@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="359DE69E-8E14-CF88-2958-C38A6E45FE68" containerWithKeyObject="BB3E5FD5-21C0-0729-8821-6C79DE7B88BF" localFKIndex="78D07E86-965C-7ACB-06E8-BA9E7960ADF1" name="MAQUINARIA_CONTRATISTA_FK">
+<createdBy>Nacho</createdBy>
+<createdTime>2026-10-12 05:41:49 UTC</createdTime>
+<generatorID>E34A2358-1E55-6F98-C110-6DD51817C41C</generatorID>
+<ownerDesignName>modelo_caso1_forestal</ownerDesignName>
+<referredTableLongName>CONTRATISTA</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>DC9CF3D3-FA95-649A-6F76-F60505751EFF</referredTableID>
+<keyObject>51023B10-2752-A422-6056-2236302C07FD</keyObject>
+<referredKeyID>51023B10-2752-A422-6056-2236302C07FD</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>rut_contratista</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

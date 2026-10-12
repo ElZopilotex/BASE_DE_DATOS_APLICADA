@@ -1,0 +1,64 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="6EB8A564-11E4-9D19-86B7-3DCE8FBD4EC4" name="MOTOSIERRISTA">
+<createdBy>Nacho</createdBy>
+<createdTime>2026-10-12 05:41:48 UTC</createdTime>
+<generatorID>4368F0EC-94F8-F33B-ACF1-C6474AFF5F32</generatorID>
+<ownerDesignName>modelo_caso1_forestal</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="rut_trabajador" id="914896EC-7566-E085-9988-C82671AE5D99">
+<createdBy>Nacho</createdBy>
+<createdTime>2026-10-12 05:41:48 UTC</createdTime>
+<generatorID>793392C0-9C7F-7A29-031B-D0D1C46A4223</generatorID>
+<ownerDesignName>modelo_caso1_forestal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>12</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C72351E5-BB4F-F66A-F895-B3D0FB133C50" referredColumn="F2A08952-9538-8B86-55CD-381C405AB0D2"/>
+</associations>
+</Column>
+<Column name="numero_certificacion" id="BC86E297-B20F-4FBC-97CB-3E71C7743B31">
+<createdBy>Nacho</createdBy>
+<createdTime>2026-10-12 05:41:48 UTC</createdTime>
+<generatorID>631EEC62-96BB-3187-5480-D321B72D6520</generatorID>
+<ownerDesignName>modelo_caso1_forestal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="70134FAA-E501-6349-B6B6-DE3087CE7D5A" name="MOTOSIERRISTA_PK">
+<createdBy>Nacho</createdBy>
+<createdTime>2026-10-12 05:41:48 UTC</createdTime>
+<generatorID>6E250A34-5664-9E54-5089-1FF10B293FF9</generatorID>
+<ownerDesignName>modelo_caso1_forestal</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="914896EC-7566-E085-9988-C82671AE5D99"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BF25B611-3D49-F479-0416-3F71EAF1BE94" name="MOTOSIERRISTA_TRABAJADOR_FK">
+<createdBy>Nacho</createdBy>
+<createdTime>2026-10-12 05:41:48 UTC</createdTime>
+<generatorID>680B1D3E-F0F8-70D2-CAC7-BECE5750E606</generatorID>
+<ownerDesignName>modelo_caso1_forestal</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="914896EC-7566-E085-9988-C82671AE5D99"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

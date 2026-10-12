@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="F4AE8308-33F2-A37D-4BFA-037EF846F500" containerWithKeyObject="BADF8C4A-1CAD-13A3-C3B0-9AA03337E27D" localFKIndex="F1DECC1E-1226-6427-4DE1-8FA19843BB26" name="RODAL_PREDIO_FK">
+<createdBy>Nacho</createdBy>
+<createdTime>2026-10-12 05:41:49 UTC</createdTime>
+<generatorID>368E8BE1-04A8-1D67-1176-2089FDF86562</generatorID>
+<ownerDesignName>modelo_caso1_forestal</ownerDesignName>
+<referredTableLongName>PREDIO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>EDD32481-F29D-EEA2-40F2-306A92920BD9</referredTableID>
+<keyObject>06062C0C-00E9-A80C-4DC1-EB38EF49A3DB</keyObject>
+<referredKeyID>06062C0C-00E9-A80C-4DC1-EB38EF49A3DB</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>rol_predio</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

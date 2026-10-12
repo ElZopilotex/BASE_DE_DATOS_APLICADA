@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="AE300B97-5BC1-B568-9063-640B40A410B4" containerWithKeyObject="F92EA845-9C54-839A-A714-0BE5349C78A4" localFKIndex="E60D26B8-A8CD-CD73-BE22-16BB35C62117" name="GUIA_DESPACHO_FAENA_COSECHA_FK">
+<createdBy>Nacho</createdBy>
+<createdTime>2026-10-12 05:41:49 UTC</createdTime>
+<generatorID>282091E4-2400-F0FA-9F17-CD5DEA98866F</generatorID>
+<ownerDesignName>modelo_caso1_forestal</ownerDesignName>
+<referredTableLongName>FAENA_COSECHA</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>C8303463-9680-B0E7-3FF3-622AE74A48BE</referredTableID>
+<keyObject>FAC8E322-4C02-61B0-7B84-9170EE76D5AD</keyObject>
+<referredKeyID>FAC8E322-4C02-61B0-7B84-9170EE76D5AD</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_faena</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
