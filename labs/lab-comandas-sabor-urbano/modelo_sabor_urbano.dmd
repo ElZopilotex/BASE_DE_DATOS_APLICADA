@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="modelo_sabor_urbano" id="95C124FA-9E75-2E22-18A2-A7294FA7D610" version="3.5">
+<createdBy>Nacho</createdBy>
+<createdTime>2026-10-12 03:40:27 UTC</createdTime>
+<ownerDesignName>modelo_sabor_urbano</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>95C124FA-9E75-2E22-18A2-A7294FA7D610</designId>
+</OSDM_Design>
