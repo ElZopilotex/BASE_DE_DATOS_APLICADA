@@ -33,11 +33,11 @@ Este repositorio almacena los modelos de datos (archivos `.dmd` y XML de Oracle 
   * `ddl/` - Scripts DDL generados por Data Modeler (`CREATE`, `ALTER`, `DROP`).
   * `dml/` - Scripts DML para poblamiento de tablas y consultas.
 * [`diccionario-datos/`](./labs/evaluacion_parcial_2_caso_1/docs/) - Exportaciones en formato PDF/HTML/Excel generadas desde Data Modeler.
-* `evaluaciones/` - Entregas evaluadas durante el semestre:
-  * [Evaluación 1](./evaluaciones/evaluacion-1) - Modelo Lógico / Entidad-Relación
-  * [Evaluación 2](./evaluaciones/evaluacion-2) - Modelo Relacional y Conversión
-  * [Evaluación 3](./evaluaciones/evaluacion-3) - Generación e implementación de Scripts DDL/DML
-  * [Evaluación 4](./evaluaciones/examen-final) - Examen Final Integrador
+* [`evaluaciones/`] - Entregas evaluadas durante el semestre:
+  * Evaluación 1 (./evaluaciones/evaluacion-1) - Modelo Lógico / Entidad-Relación
+  * Evaluación 2 (./evaluaciones/evaluacion-2) - Modelo Relacional y Conversión
+  * Evaluación 3 (./evaluaciones/evaluacion-3) - Generación e implementación de Scripts DDL/DML
+  * Evaluación 4 (./evaluaciones/examen-final) - Examen Final Integrador
 
 ---
 
