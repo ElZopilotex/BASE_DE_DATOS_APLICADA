@@ -29,10 +29,10 @@ Este repositorio almacena los modelos de datos (archivos `.dmd` y XML de Oracle 
   * `conceptual/` - Modelos conceptuales preliminares.
   * `logico/` - Modelos entidad-relación (ERD) detallados.
   * `relacional/` - Modelos relacionales transformados.
-* `scripts/` - Código SQL asociado a los modelos:
-  * [`ddl/`](./labs/evaluacion_parcial_2_caso_1/models/sql/) - Scripts DDL generados por Data Modeler (`CREATE`, `ALTER`, `DROP`).
+* [`scripts/`](./labs/evaluacion_parcial_2_caso_1/models/sql/) - Código SQL asociado a los modelos:
+  * `ddl/` - Scripts DDL generados por Data Modeler (`CREATE`, `ALTER`, `DROP`).
   * `dml/` - Scripts DML para poblamiento de tablas y consultas.
-* `diccionario-datos/` - Exportaciones en formato PDF/HTML/Excel generadas desde Data Modeler.
+* [`diccionario-datos/`](./labs/evaluacion_parcial_2_caso_1/docs/) - Exportaciones en formato PDF/HTML/Excel generadas desde Data Modeler.
 * `evaluaciones/` - Entregas evaluadas durante el semestre:
   * [Evaluación 1](./evaluaciones/evaluacion-1) - Modelo Lógico / Entidad-Relación
   * [Evaluación 2](./evaluaciones/evaluacion-2) - Modelo Relacional y Conversión
