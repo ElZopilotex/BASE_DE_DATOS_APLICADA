@@ -26,12 +26,9 @@ Este repositorio almacena los modelos de datos (archivos `.dmd` y XML de Oracle 
 * `.gitignore` - Filtro de archivos temporales de Git y de Oracle SQL Developer.
 * `docs/` - Requerimientos del sistema y documentación de reglas de negocio.
 * `models/` - Diseños y diagramas creados en Oracle Data Modeler (`.dmd` y carpetas XML asociadas):
-  * `conceptual/` - Modelos conceptuales preliminares.
-  * `logico/` - Modelos entidad-relación (ERD) detallados.
-  * `relacional/` - Modelos relacionales transformados.
+  * `models/` - Modelos conceptuales, lógicos y relacionales.
 * `scripts/` - Código SQL asociado a los modelos:
-  * `ddl/` - Scripts DDL generados por Data Modeler (`CREATE`, `ALTER`, `DROP`).
-  * `dml/` - Scripts DML para poblamiento de tablas y consultas.
+  * [`scripts/ddl/`](./sql/) - Scripts DDL generados por Data Modeler (`CREATE`, `ALTER`, `DROP`).
 * `diccionario-datos/` - Exportaciones en formato PDF/HTML/Excel generadas desde Data Modeler.
 * `evaluaciones/` - Entregas evaluadas durante el semestre:
   * [Evaluación 1](./evaluaciones/evaluacion-1) - Modelo Lógico / Entidad-Relación
