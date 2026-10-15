@@ -23,12 +23,15 @@ Este repositorio almacena los modelos de datos (archivos `.dmd` y XML de Oracle 
 
 ## Estructura del Proyecto
 
-* `.gitignore` - Filtro de archivos temporales de Git y de Oracle SQL Developer.
-* `docs/` - Requerimientos del sistema y documentación de reglas de negocio.
-* `models/` - Diseños y diagramas creados en Oracle Data Modeler (`.dmd` y carpetas XML asociadas):
-  * `models/` - Modelos conceptuales, lógicos y relacionales.
+* [`.gitignore`](./labs/evaluacion_parcial_2_caso_1/.gitignore) - Filtro de archivos temporales de Git y de Oracle SQL Developer.
+* [`docs/`](./labs/evaluacion_parcial_2_caso_1/docs/) - Requerimientos del sistema y documentación de reglas de negocio.
+* [`models/`](./labs/evaluacion_parcial_2_caso_1/models/) - Diseños y diagramas creados en Oracle Data Modeler (`.dmd` y carpetas XML asociadas):
+  * `conceptual/` - Modelos conceptuales preliminares.
+  * `logico/` - Modelos entidad-relación (ERD) detallados.
+  * `relacional/` - Modelos relacionales transformados.
 * `scripts/` - Código SQL asociado a los modelos:
-  * [`scripts/ddl/`](./sql/) - Scripts DDL generados por Data Modeler (`CREATE`, `ALTER`, `DROP`).
+  * [`ddl/`](./labs/evaluacion_parcial_2_caso_1/models/sql/) - Scripts DDL generados por Data Modeler (`CREATE`, `ALTER`, `DROP`).
+  * `dml/` - Scripts DML para poblamiento de tablas y consultas.
 * `diccionario-datos/` - Exportaciones en formato PDF/HTML/Excel generadas desde Data Modeler.
 * `evaluaciones/` - Entregas evaluadas durante el semestre:
   * [Evaluación 1](./evaluaciones/evaluacion-1) - Modelo Lógico / Entidad-Relación
