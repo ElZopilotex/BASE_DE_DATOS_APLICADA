@@ -1,0 +1,94 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="388F4F57-D859-57A3-3E69-A6526AA2C3EE" name="DETALLE_VENTA">
+<createdBy>Nacho</createdBy>
+<createdTime>2026-10-15 05:35:01 UTC</createdTime>
+<ownerDesignName>modelo_relacional_caso2</ownerDesignName>
+<ordsAlias>table_11</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="VENTA_nro_venta" id="51CC393B-028F-C772-5916-57F6A574D1AB">
+<createdBy>Nacho</createdBy>
+<createdTime>2026-10-15 05:35:50 UTC</createdTime>
+<ownerDesignName>modelo_relacional_caso2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E18C8DA0-800C-3B28-F885-4D1ACA8700A2" referredColumn="760EB410-32E5-F8A7-C563-A3B54D4CE13E"/>
+</associations>
+</Column>
+<Column name="LOTE_PLANTAS_nro_lote" id="F0F8C222-4D07-A4CE-5F1C-74B29F852C46">
+<createdBy>Nacho</createdBy>
+<createdTime>2026-10-15 05:36:03 UTC</createdTime>
+<ownerDesignName>modelo_relacional_caso2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DECDC040-D3FA-CDA9-01B2-A281F8BB69B6" referredColumn="5BEA1D71-2207-A62D-FC6D-74F6044609F5"/>
+</associations>
+</Column>
+<Column name="cantidad" id="4A3655EB-5CDD-30EC-0A10-013E46F2365B">
+<createdBy>Nacho</createdBy>
+<createdTime>2026-10-15 05:37:55 UTC</createdTime>
+<ownerDesignName>modelo_relacional_caso2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="precio_unitario" id="47D9D7F8-90F6-979E-8F6D-06ADDA91F01B">
+<createdBy>Nacho</createdBy>
+<createdTime>2026-10-15 05:37:55 UTC</createdTime>
+<ownerDesignName>modelo_relacional_caso2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B57D5037-8221-FFEF-3B37-4511DE67310E" name="DETALLE_VENTA_PK">
+<createdBy>Nacho</createdBy>
+<createdTime>2026-10-15 05:40:32 UTC</createdTime>
+<ownerDesignName>modelo_relacional_caso2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="51CC393B-028F-C772-5916-57F6A574D1AB"/>
+<colUsage columnID="F0F8C222-4D07-A4CE-5F1C-74B29F852C46"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5A7B5DD9-4412-7568-3729-17CB508294C1" name="DETALLE_VENTA_VENTA_FK">
+<createdBy>Nacho</createdBy>
+<createdTime>2026-10-15 05:35:50 UTC</createdTime>
+<ownerDesignName>modelo_relacional_caso2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="51CC393B-028F-C772-5916-57F6A574D1AB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CF86E79B-9A43-2E9A-F604-1B41EE76870B" name="DETALLE_VENTA_LOTE_PLANTAS_FK">
+<createdBy>Nacho</createdBy>
+<createdTime>2026-10-15 05:36:03 UTC</createdTime>
+<ownerDesignName>modelo_relacional_caso2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F0F8C222-4D07-A4CE-5F1C-74B29F852C46"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

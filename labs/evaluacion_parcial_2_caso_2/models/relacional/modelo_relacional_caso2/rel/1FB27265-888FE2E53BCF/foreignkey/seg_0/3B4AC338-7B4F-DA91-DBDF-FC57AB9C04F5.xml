@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="3B4AC338-7B4F-DA91-DBDF-FC57AB9C04F5" containerWithKeyObject="4B834C84-E891-B76B-EE1C-247A247E4374" localFKIndex="45A49A1B-ED09-1A7F-B7D7-C6B3F879E116" name="LOTE_PLANTAS_ESPECIE_FK">
+<createdBy>Nacho</createdBy>
+<createdTime>2026-10-15 05:17:07 UTC</createdTime>
+<comment><![CDATA[adsda
+]]></comment>
+<ownerDesignName>modelo_relacional_caso2</ownerDesignName>
+<referredTableLongName>ESPECIE</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>AE89E6C3-B01C-D208-FA96-067A92E2F194</referredTableID>
+<keyObject>BD5BDEAF-2E44-5C05-7374-DFD0231A4358</keyObject>
+<referredKeyID>BD5BDEAF-2E44-5C05-7374-DFD0231A4358</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>cod_especie</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

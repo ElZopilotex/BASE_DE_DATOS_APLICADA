@@ -1,0 +1,57 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="AE89E6C3-B01C-D208-FA96-067A92E2F194" name="ESPECIE">
+<createdBy>Nacho</createdBy>
+<createdTime>2026-10-15 05:06:08 UTC</createdTime>
+<ownerDesignName>modelo_relacional_caso2</ownerDesignName>
+<ordsAlias>table_1</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cod_especie" id="284944F1-E6E8-5369-EA7A-A141302E014E">
+<createdBy>Nacho</createdBy>
+<createdTime>2026-10-15 05:09:03 UTC</createdTime>
+<ownerDesignName>modelo_relacional_caso2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre_especie" id="C36D97BD-3ED5-4F46-1E6B-E41F37B43A6E">
+<createdBy>Nacho</createdBy>
+<createdTime>2026-10-15 05:09:03 UTC</createdTime>
+<ownerDesignName>modelo_relacional_caso2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre_cientifico" id="577AA675-F622-74DC-17DD-29BFB60FDF56">
+<createdBy>Nacho</createdBy>
+<createdTime>2026-10-15 05:09:03 UTC</createdTime>
+<ownerDesignName>modelo_relacional_caso2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150</dataTypeSize>
+<ownDataTypeParameters>150,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="BD5BDEAF-2E44-5C05-7374-DFD0231A4358" name="ESPECIE_PK">
+<createdBy>Nacho</createdBy>
+<createdTime>2026-10-15 05:09:03 UTC</createdTime>
+<ownerDesignName>modelo_relacional_caso2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="284944F1-E6E8-5369-EA7A-A141302E014E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

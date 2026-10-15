@@ -1,0 +1,103 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4B834C84-E891-B76B-EE1C-247A247E4374" name="LOTE_PLANTAS">
+<createdBy>Nacho</createdBy>
+<createdTime>2026-10-15 05:13:00 UTC</createdTime>
+<ownerDesignName>modelo_relacional_caso2</ownerDesignName>
+<ordsAlias>table_3</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="nro_lote" id="5BEA1D71-2207-A62D-FC6D-74F6044609F5">
+<createdBy>Nacho</createdBy>
+<createdTime>2026-10-15 05:15:14 UTC</createdTime>
+<ownerDesignName>modelo_relacional_caso2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha_siembra" id="AA2D8C25-9239-4CC4-1F31-3AFFA3B81FD4">
+<createdBy>Nacho</createdBy>
+<createdTime>2026-10-15 05:15:14 UTC</createdTime>
+<ownerDesignName>modelo_relacional_caso2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cantidad_plantas" id="3B2A779E-4A1B-5A99-22AE-8784C75E7782">
+<createdBy>Nacho</createdBy>
+<createdTime>2026-10-15 05:15:14 UTC</createdTime>
+<ownerDesignName>modelo_relacional_caso2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="VIVERO_cod_vivero" id="AF254230-DF65-BBF0-62DB-9AB8DA5BF91A">
+<createdBy>Nacho</createdBy>
+<createdTime>2026-10-15 05:15:45 UTC</createdTime>
+<ownerDesignName>modelo_relacional_caso2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CA9563BA-5F93-E482-4FE2-CDAD4353AF28" referredColumn="C5ED74E6-F5CE-5C2D-FCE8-1A0C4FEB6176"/>
+</associations>
+</Column>
+<Column name="ESPECIE_cod_especie" id="95305D6C-78BE-7C7D-5791-1E838ECD39D9">
+<createdBy>Nacho</createdBy>
+<createdTime>2026-10-15 05:17:07 UTC</createdTime>
+<ownerDesignName>modelo_relacional_caso2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3B4AC338-7B4F-DA91-DBDF-FC57AB9C04F5" referredColumn="284944F1-E6E8-5369-EA7A-A141302E014E"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9DA7147F-1A01-39A4-123F-A95094F896A4" name="LOTE_PLANTAS_PK">
+<createdBy>Nacho</createdBy>
+<createdTime>2026-10-15 05:15:14 UTC</createdTime>
+<ownerDesignName>modelo_relacional_caso2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5BEA1D71-2207-A62D-FC6D-74F6044609F5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F60D8088-3E93-D7E6-9F89-107A0BCD7628" name="LOTE_PLANTAS_VIVERO_FK">
+<createdBy>Nacho</createdBy>
+<createdTime>2026-10-15 05:15:45 UTC</createdTime>
+<ownerDesignName>modelo_relacional_caso2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AF254230-DF65-BBF0-62DB-9AB8DA5BF91A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="45A49A1B-ED09-1A7F-B7D7-C6B3F879E116" name="LOTE_PLANTAS_ESPECIE_FK">
+<createdBy>Nacho</createdBy>
+<createdTime>2026-10-15 05:17:07 UTC</createdTime>
+<ownerDesignName>modelo_relacional_caso2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="95305D6C-78BE-7C7D-5791-1E838ECD39D9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

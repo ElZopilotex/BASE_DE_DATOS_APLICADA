@@ -1,0 +1,80 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="FB500B84-03B2-975C-1E16-93AB622E592A" name="VENTA">
+<createdBy>Nacho</createdBy>
+<createdTime>2026-10-15 05:32:34 UTC</createdTime>
+<ownerDesignName>modelo_relacional_caso2</ownerDesignName>
+<ordsAlias>table_10</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="nro_venta" id="760EB410-32E5-F8A7-C563-A3B54D4CE13E">
+<createdBy>Nacho</createdBy>
+<createdTime>2026-10-15 05:33:57 UTC</createdTime>
+<ownerDesignName>modelo_relacional_caso2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha_venta" id="9267AA08-1C82-E355-F68B-9BDD182231BB">
+<createdBy>Nacho</createdBy>
+<createdTime>2026-10-15 05:33:57 UTC</createdTime>
+<ownerDesignName>modelo_relacional_caso2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="forma_pago" id="8A7D9AB1-4CE6-86A9-D0CA-7BAC2D382A43">
+<createdBy>Nacho</createdBy>
+<createdTime>2026-10-15 05:33:57 UTC</createdTime>
+<ownerDesignName>modelo_relacional_caso2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CLIENTE_id_cliente" id="53253B33-DC55-2364-1A15-E34D5BC1A7F6">
+<createdBy>Nacho</createdBy>
+<createdTime>2026-10-15 05:34:11 UTC</createdTime>
+<ownerDesignName>modelo_relacional_caso2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CC6E16DC-0958-124A-64BA-0BAC8A10B749" referredColumn="CE5D6FB9-FD79-CCCD-BE83-AA184BF31E49"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0A790519-723C-E2B4-699B-10DFBC64B707" name="VENTA_PK">
+<createdBy>Nacho</createdBy>
+<createdTime>2026-10-15 05:33:57 UTC</createdTime>
+<ownerDesignName>modelo_relacional_caso2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="760EB410-32E5-F8A7-C563-A3B54D4CE13E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0E1740E9-8E8E-2FB0-2D31-F1CEAC535482" name="VENTA_CLIENTE_FK">
+<createdBy>Nacho</createdBy>
+<createdTime>2026-10-15 05:34:11 UTC</createdTime>
+<ownerDesignName>modelo_relacional_caso2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="53253B33-DC55-2364-1A15-E34D5BC1A7F6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
