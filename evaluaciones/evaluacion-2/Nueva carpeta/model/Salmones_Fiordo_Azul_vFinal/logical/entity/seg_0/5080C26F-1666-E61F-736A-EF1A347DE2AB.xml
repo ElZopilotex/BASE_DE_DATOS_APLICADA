@@ -1,0 +1,84 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="5080C26F-1666-E61F-736A-EF1A347DE2AB" name="TRATAMIENTO_SANITARIO">
+<createdBy>Nacho</createdBy>
+<createdTime>2026-10-16 05:27:52 UTC</createdTime>
+<ownerDesignName>Salmones_Fiordo_Azul_vFinal</ownerDesignName>
+<engineerTo>
+<item key="B6531142-DF49-1AAF-B9E6-DED82C24F2EB" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_tratamiento" id="24CC0104-E975-F8D6-7730-ABD5FA11262C">
+<createdBy>Nacho</createdBy>
+<createdTime>2026-10-16 05:28:07 UTC</createdTime>
+<ownerDesignName>Salmones_Fiordo_Azul_vFinal</ownerDesignName>
+<engineerTo>
+<item key="B6531142-DF49-1AAF-B9E6-DED82C24F2EB" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fecha_inicio" id="3B70A73E-0558-9491-6355-19CAE239AAE3">
+<createdBy>Nacho</createdBy>
+<createdTime>2026-10-16 05:28:08 UTC</createdTime>
+<ownerDesignName>Salmones_Fiordo_Azul_vFinal</ownerDesignName>
+<engineerTo>
+<item key="B6531142-DF49-1AAF-B9E6-DED82C24F2EB" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fecha_linea_cierre" id="AA2C8B6B-A6AD-89DF-6BC3-256108912B89">
+<createdBy>Nacho</createdBy>
+<createdTime>2026-10-16 05:28:08 UTC</createdTime>
+<ownerDesignName>Salmones_Fiordo_Azul_vFinal</ownerDesignName>
+<engineerTo>
+<item key="B6531142-DF49-1AAF-B9E6-DED82C24F2EB" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dosis_aplicada" id="A3175CEB-6696-F163-762A-D0C20651E554">
+<createdBy>Nacho</createdBy>
+<createdTime>2026-10-16 05:28:09 UTC</createdTime>
+<ownerDesignName>Salmones_Fiordo_Azul_vFinal</ownerDesignName>
+<engineerTo>
+<item key="B6531142-DF49-1AAF-B9E6-DED82C24F2EB" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="A604A526-7E2F-D576-0F25-EC3ACF7D53BC" name="ENTIDAD PK">
+<createdBy>Nacho</createdBy>
+<createdTime>2026-10-16 05:28:19 UTC</createdTime>
+<ownerDesignName>Salmones_Fiordo_Azul_vFinal</ownerDesignName>
+<engineerTo>
+<item key="B6531142-DF49-1AAF-B9E6-DED82C24F2EB" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>24CC0104-E975-F8D6-7730-ABD5FA11262C</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

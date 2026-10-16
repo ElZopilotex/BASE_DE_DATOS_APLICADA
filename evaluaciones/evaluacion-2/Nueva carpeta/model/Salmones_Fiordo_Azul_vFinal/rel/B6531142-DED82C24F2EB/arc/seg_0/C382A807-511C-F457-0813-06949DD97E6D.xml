@@ -1,0 +1,14 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKArc class="oracle.dbtools.crest.model.design.relational.FKArc" directorySegmentName="seg_0" id="C382A807-511C-F457-0813-06949DD97E6D" name="FKArc_1">
+<createdBy>Nacho</createdBy>
+<createdTime>2026-10-16 07:02:39 UTC</createdTime>
+<ownerDesignName>Salmones_Fiordo_Azul_vFinal</ownerDesignName>
+<mandatory>false</mandatory>
+<reverseArc>true</reverseArc>
+<table>6E8ED452-A5AF-9867-03C2-1DB7C8E88D6F</table>
+<fkeys>
+<fkeyID>BBBAD29B-E291-4479-8BFA-14CF17F941D4</fkeyID>
+<fkeyID>6E62643F-BFF9-A6DA-0D7E-5ED5601C9460</fkeyID>
+<fkeyID>F87E7FE3-E0DC-9031-DCAD-3AA657C5FFDD</fkeyID>
+</fkeys>
+</FKArc>

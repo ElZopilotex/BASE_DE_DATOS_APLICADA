@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="82DB9615-294B-C591-D322-0C8BB4000B15" containerWithKeyObject="DAB5813B-2BEA-129C-D72B-B4E6359C9F8F" localFKIndex="141F1AE3-DC53-6E83-CAB9-F40F15DF6FC0" name="BARRIO_SANITARIO_CENTRO_CULTIVO_FK">
+<createdBy>Nacho</createdBy>
+<createdTime>2026-10-16 07:02:39 UTC</createdTime>
+<generatorID>52DC03E0-662B-F4FB-4E4C-0223982D5F8C</generatorID>
+<ownerDesignName>Salmones_Fiordo_Azul_vFinal</ownerDesignName>
+<referredTableLongName>CENTRO_CULTIVO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>C205DE56-17BF-549D-4075-A7538CC1BEA7</referredTableID>
+<keyObject>E434F9F9-0959-3053-CE92-4855A0DC2C0E</keyObject>
+<referredKeyID>E434F9F9-0959-3053-CE92-4855A0DC2C0E</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>codigo_centro,JAULA_numb_jaula,JAULA_id_lote,JAULA_fecha,JAULA_fecha1</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

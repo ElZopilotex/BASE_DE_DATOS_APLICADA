@@ -1,0 +1,115 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="6AFBB446-9CC4-BCA1-EB88-694DDAC64B99" name="ESPECIE">
+<createdBy>Nacho</createdBy>
+<createdTime>2026-10-16 05:06:13 UTC</createdTime>
+<ownerDesignName>Salmones_Fiordo_Azul_vFinal</ownerDesignName>
+<engineerTo>
+<item key="B6531142-DF49-1AAF-B9E6-DED82C24F2EB" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="codigo_especie" id="1638381F-A1C6-17A6-1448-59FE7E280B1D">
+<createdBy>Nacho</createdBy>
+<createdTime>2026-10-16 05:06:27 UTC</createdTime>
+<ownerDesignName>Salmones_Fiordo_Azul_vFinal</ownerDesignName>
+<engineerTo>
+<item key="B6531142-DF49-1AAF-B9E6-DED82C24F2EB" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre_comun" id="B4E6437C-CC26-AC05-0F72-EDC146DB751C">
+<createdBy>Nacho</createdBy>
+<createdTime>2026-10-16 05:06:27 UTC</createdTime>
+<ownerDesignName>Salmones_Fiordo_Azul_vFinal</ownerDesignName>
+<engineerTo>
+<item key="B6531142-DF49-1AAF-B9E6-DED82C24F2EB" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>80</dataTypeSize>
+<ownDataTypeParameters>80,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre_cientifico" id="B1433EDF-EC53-F208-EEF5-D980C391CDBE">
+<createdBy>Nacho</createdBy>
+<createdTime>2026-10-16 05:06:27 UTC</createdTime>
+<ownerDesignName>Salmones_Fiordo_Azul_vFinal</ownerDesignName>
+<engineerTo>
+<item key="B6531142-DF49-1AAF-B9E6-DED82C24F2EB" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_lote" id="A9C38A06-C4BA-1CC4-9692-F0E29867AA06">
+<createdBy>Nacho</createdBy>
+<createdTime>2026-10-16 07:00:58 UTC</createdTime>
+<generatorID>F18528C0-10A4-09D8-C5B9-EBF67D9E6BE8</generatorID>
+<ownerDesignName>Salmones_Fiordo_Azul_vFinal</ownerDesignName>
+<engineerTo>
+<item key="B6531142-DF49-1AAF-B9E6-DED82C24F2EB" value="true"/>
+</engineerTo>
+<referedAttribute>E116686A-1D1C-D8E6-D388-67AF52E24F30</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fecha" id="ED9B47FC-7C9E-66F0-BAD6-42B645D2E270">
+<createdBy>Nacho</createdBy>
+<createdTime>2026-10-16 07:00:58 UTC</createdTime>
+<generatorID>F18528C0-10A4-09D8-C5B9-EBF67D9E6BE8</generatorID>
+<ownerDesignName>Salmones_Fiordo_Azul_vFinal</ownerDesignName>
+<engineerTo>
+<item key="B6531142-DF49-1AAF-B9E6-DED82C24F2EB" value="true"/>
+</engineerTo>
+<referedAttribute>5E5054D1-A2E6-A0F3-E1AB-A3C94E9BBABC</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fecha1" id="97F31329-F404-A56F-FAD8-0BF87F5E3C5F">
+<createdBy>Nacho</createdBy>
+<createdTime>2026-10-16 07:00:58 UTC</createdTime>
+<generatorID>F18528C0-10A4-09D8-C5B9-EBF67D9E6BE8</generatorID>
+<ownerDesignName>Salmones_Fiordo_Azul_vFinal</ownerDesignName>
+<engineerTo>
+<item key="B6531142-DF49-1AAF-B9E6-DED82C24F2EB" value="true"/>
+</engineerTo>
+<referedAttribute>075FD708-9CB0-C433-67FC-9D51BE81FF90</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="4D8CA024-7723-6C8F-316B-C6CF6F2EB262" name="ESPECIE PK">
+<createdBy>Nacho</createdBy>
+<createdTime>2026-10-16 05:06:55 UTC</createdTime>
+<ownerDesignName>Salmones_Fiordo_Azul_vFinal</ownerDesignName>
+<engineerTo>
+<item key="B6531142-DF49-1AAF-B9E6-DED82C24F2EB" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>1638381F-A1C6-17A6-1448-59FE7E280B1D</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

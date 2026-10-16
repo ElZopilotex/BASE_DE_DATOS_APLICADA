@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="14E640A4-7B53-48D6-172F-B16C8E7698A3" name="CARGO">
+<createdBy>Nacho</createdBy>
+<createdTime>2026-10-16 07:02:39 UTC</createdTime>
+<generatorID>68172481-0FD6-7259-2BC1-6B39585FB615</generatorID>
+<ownerDesignName>Salmones_Fiordo_Azul_vFinal</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_cargo" id="A4149920-3BA8-2798-E0FB-B8DB65F4A711">
+<createdBy>Nacho</createdBy>
+<createdTime>2026-10-16 07:02:39 UTC</createdTime>
+<generatorID>4AB1AA89-9E9B-86DC-2365-40B0813C340A</generatorID>
+<ownerDesignName>Salmones_Fiordo_Azul_vFinal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre_cargo" id="26E12618-E040-5AB5-1BC3-E07DA9488A3D">
+<createdBy>Nacho</createdBy>
+<createdTime>2026-10-16 07:02:39 UTC</createdTime>
+<generatorID>715155D1-416D-9361-60B2-3F8EEC0D6A0A</generatorID>
+<ownerDesignName>Salmones_Fiordo_Azul_vFinal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>80</dataTypeSize>
+<ownDataTypeParameters>80,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EMPLEADO_num_rut" id="188906F4-653B-D8E9-7A30-09485279A4F8">
+<createdBy>Nacho</createdBy>
+<createdTime>2026-10-16 07:02:39 UTC</createdTime>
+<generatorID>0BAA4B7D-C6DD-C77F-9D69-C8B8AC5B1D59</generatorID>
+<ownerDesignName>Salmones_Fiordo_Azul_vFinal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8FCEA766-95FE-04BE-0A80-A78A8BF8359E" referredColumn="E2E38CC2-B24C-9E66-016A-6974DCEC0E75"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C018DCAC-B393-15E4-0196-DAC33A8D5F7E" name="CARGO_PK">
+<createdBy>Nacho</createdBy>
+<createdTime>2026-10-16 07:02:39 UTC</createdTime>
+<generatorID>10EA5DFC-FEF7-D6AE-D847-E945538716DF</generatorID>
+<ownerDesignName>Salmones_Fiordo_Azul_vFinal</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A4149920-3BA8-2798-E0FB-B8DB65F4A711"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1E578EB0-CE30-BF03-9BBE-010B1012501B" name="CARGO_EMPLEADO_FK">
+<createdBy>Nacho</createdBy>
+<createdTime>2026-10-16 07:02:39 UTC</createdTime>
+<generatorID>C1CFD5A0-7FB1-F91C-4F44-3B0F64634A6F</generatorID>
+<ownerDesignName>Salmones_Fiordo_Azul_vFinal</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="188906F4-653B-D8E9-7A30-09485279A4F8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

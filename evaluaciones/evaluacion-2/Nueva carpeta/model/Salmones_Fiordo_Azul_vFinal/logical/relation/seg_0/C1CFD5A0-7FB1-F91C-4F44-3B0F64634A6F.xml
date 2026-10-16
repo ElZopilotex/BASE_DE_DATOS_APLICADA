@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_16" directorySegmentName="seg_0" id="C1CFD5A0-7FB1-F91C-4F44-3B0F64634A6F">
+<createdBy>Nacho</createdBy>
+<createdTime>2026-10-16 05:49:50 UTC</createdTime>
+<ownerDesignName>Salmones_Fiordo_Azul_vFinal</ownerDesignName>
+<engineerTo>
+<item key="B6531142-DF49-1AAF-B9E6-DED82C24F2EB" value="true"/>
+</engineerTo>
+<sourcePk>59AAEFEE-73C5-E486-804F-B036A381B292</sourcePk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>58B04A58-5C20-7846-DE37-7E0BA61B5E4F</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>68172481-0FD6-7259-2BC1-6B39585FB615</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

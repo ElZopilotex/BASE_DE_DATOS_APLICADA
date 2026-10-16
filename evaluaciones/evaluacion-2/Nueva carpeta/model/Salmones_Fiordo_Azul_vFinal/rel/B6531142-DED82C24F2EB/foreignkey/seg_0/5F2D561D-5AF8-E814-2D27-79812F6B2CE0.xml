@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="5F2D561D-5AF8-E814-2D27-79812F6B2CE0" containerWithKeyObject="F930F007-0093-52F1-B976-4DE3280E2B39" localFKIndex="BE11970E-A26D-CBAE-8E45-D56CD52B4496" name="LOTE_COSECHA_FK">
+<createdBy>Nacho</createdBy>
+<createdTime>2026-10-16 07:02:39 UTC</createdTime>
+<generatorID>EDC4FC44-7122-6B19-E94A-95BED1FD82B5</generatorID>
+<ownerDesignName>Salmones_Fiordo_Azul_vFinal</ownerDesignName>
+<referredTableLongName>COSECHA</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>EA94046B-629D-9C63-56C4-757B224DAA73</referredTableID>
+<keyObject>2F484BCB-70CE-F49A-474D-59EEB325F6A7</keyObject>
+<referredKeyID>2F484BCB-70CE-F49A-474D-59EEB325F6A7</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_cosecha</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

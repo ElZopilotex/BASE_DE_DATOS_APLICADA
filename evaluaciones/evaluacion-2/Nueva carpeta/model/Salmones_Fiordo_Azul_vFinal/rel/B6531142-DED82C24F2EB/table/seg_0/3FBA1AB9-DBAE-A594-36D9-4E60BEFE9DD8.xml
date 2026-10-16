@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3FBA1AB9-DBAE-A594-36D9-4E60BEFE9DD8" name="CAUSA_MORTALIDAD">
+<createdBy>Nacho</createdBy>
+<createdTime>2026-10-16 07:02:39 UTC</createdTime>
+<generatorID>7D7D58F4-26A9-B5B7-63DF-A8566DD1F1E5</generatorID>
+<ownerDesignName>Salmones_Fiordo_Azul_vFinal</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cod_causa" id="84CF9F0E-19A6-3A3A-87F7-5BDE0D9AD587">
+<createdBy>Nacho</createdBy>
+<createdTime>2026-10-16 07:02:39 UTC</createdTime>
+<generatorID>47D43217-5992-647D-919F-CD3D803B6777</generatorID>
+<ownerDesignName>Salmones_Fiordo_Azul_vFinal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="descripcion_causa" id="DF1392D0-C65D-310E-D2CC-538F9E901DCB">
+<createdBy>Nacho</createdBy>
+<createdTime>2026-10-16 07:02:39 UTC</createdTime>
+<generatorID>29B6EF3B-0B95-C19C-6E55-3150FEA885BD</generatorID>
+<ownerDesignName>Salmones_Fiordo_Azul_vFinal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MORTALIDAD_DIARIA_fecha" id="A232B6C3-A41E-9341-DA1A-EFDB9831B256">
+<createdBy>Nacho</createdBy>
+<createdTime>2026-10-16 07:02:39 UTC</createdTime>
+<generatorID>89256A9D-A090-A30D-C171-0BB1A68F1EDB</generatorID>
+<ownerDesignName>Salmones_Fiordo_Azul_vFinal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E4AA8E59-0C9C-6147-A241-D30A6A075E8D" referredColumn="A9B5B0B5-478F-9E2A-CEFD-8F8DCC95735F"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4FC126B2-6981-F037-FB76-C095256F9FC2" name="CAUSA_MORTALIDAD_PK">
+<createdBy>Nacho</createdBy>
+<createdTime>2026-10-16 07:02:39 UTC</createdTime>
+<generatorID>13A77757-8F49-A66E-AD68-26C47D166E7B</generatorID>
+<ownerDesignName>Salmones_Fiordo_Azul_vFinal</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="84CF9F0E-19A6-3A3A-87F7-5BDE0D9AD587"/>
+<colUsage columnID="A232B6C3-A41E-9341-DA1A-EFDB9831B256"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="410C7A13-E89C-B71A-2DA3-64ED8A929143" name="CAUSA_MORTALIDAD_MORTALIDAD_DIARIA_FK">
+<createdBy>Nacho</createdBy>
+<createdTime>2026-10-16 07:02:39 UTC</createdTime>
+<generatorID>0243739A-7768-7B1C-5B52-3A0259B44C81</generatorID>
+<ownerDesignName>Salmones_Fiordo_Azul_vFinal</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A232B6C3-A41E-9341-DA1A-EFDB9831B256"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

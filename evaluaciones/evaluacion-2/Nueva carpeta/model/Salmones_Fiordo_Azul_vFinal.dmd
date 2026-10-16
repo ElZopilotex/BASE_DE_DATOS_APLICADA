@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="Salmones_Fiordo_Azul_vFinal" id="E055316F-085C-4D8C-5822-7848870576D9" version="3.5">
+<createdBy>Nacho</createdBy>
+<createdTime>2026-10-16 04:41:59 UTC</createdTime>
+<ownerDesignName>Salmones_Fiordo_Azul_vFinal</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>E055316F-085C-4D8C-5822-7848870576D9</designId>
+</OSDM_Design>

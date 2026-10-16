@@ -1,0 +1,143 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DAB5813B-2BEA-129C-D72B-B4E6359C9F8F" name="BARRIO_SANITARIO">
+<createdBy>Nacho</createdBy>
+<createdTime>2026-10-16 07:02:39 UTC</createdTime>
+<generatorID>D4F69C6E-D28B-3D63-4757-4CBB654A283E</generatorID>
+<ownerDesignName>Salmones_Fiordo_Azul_vFinal</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="codigo_barrio" id="0D46E112-D4E0-C8B2-65EC-82E778D24F06">
+<createdBy>Nacho</createdBy>
+<createdTime>2026-10-16 07:02:39 UTC</createdTime>
+<generatorID>31EE306D-C8EB-47FC-63CE-99C41AE0C856</generatorID>
+<ownerDesignName>Salmones_Fiordo_Azul_vFinal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre_barrio" id="AA40055C-99F6-21A2-F4BF-369749CB2EDD">
+<createdBy>Nacho</createdBy>
+<createdTime>2026-10-16 07:02:39 UTC</createdTime>
+<generatorID>953ABD9B-1DDC-37BD-DBCA-1F68777FEDDC</generatorID>
+<ownerDesignName>Salmones_Fiordo_Azul_vFinal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CENTRO_CULTIVO_codigo_centro" id="05667386-D7B7-3C44-6DF3-1E6AD0A2EAA6">
+<createdBy>Nacho</createdBy>
+<createdTime>2026-10-16 07:02:39 UTC</createdTime>
+<generatorID>4AAB68EA-5268-0572-C627-DFA464D498A4</generatorID>
+<ownerDesignName>Salmones_Fiordo_Azul_vFinal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="82DB9615-294B-C591-D322-0C8BB4000B15" referredColumn="42475DA6-D546-C0F4-6ADB-4A6E181094A0"/>
+</associations>
+</Column>
+<Column name="CENTRO_CULTIVO_numb_jaula" id="450F0EF6-7EB0-B7D4-7AD9-7B571A7E42BF">
+<createdBy>Nacho</createdBy>
+<createdTime>2026-10-16 07:02:39 UTC</createdTime>
+<generatorID>E9288708-634F-8D6A-6C37-7D24C2B4E503</generatorID>
+<ownerDesignName>Salmones_Fiordo_Azul_vFinal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="82DB9615-294B-C591-D322-0C8BB4000B15" referredColumn="16DB6629-1999-435C-80BA-B058F9BBB7E1"/>
+</associations>
+</Column>
+<Column name="CENTRO_CULTIVO_id_lote" id="4E0CDE71-F309-1561-5339-5C8B4782B7D2">
+<createdBy>Nacho</createdBy>
+<createdTime>2026-10-16 07:02:39 UTC</createdTime>
+<generatorID>0E520B37-FB1B-9308-9F1A-7AE6B83B9541</generatorID>
+<ownerDesignName>Salmones_Fiordo_Azul_vFinal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="82DB9615-294B-C591-D322-0C8BB4000B15" referredColumn="7DE65375-DF66-94C9-896C-66D234AADA73"/>
+</associations>
+</Column>
+<Column name="CENTRO_CULTIVO_fecha" id="799C9C84-B5B1-613D-C881-2F6C60C4E933">
+<createdBy>Nacho</createdBy>
+<createdTime>2026-10-16 07:02:39 UTC</createdTime>
+<generatorID>6B925D3B-1B4C-546F-09D8-F12135841C3B</generatorID>
+<ownerDesignName>Salmones_Fiordo_Azul_vFinal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="82DB9615-294B-C591-D322-0C8BB4000B15" referredColumn="6F4D791D-A2AE-267C-63C3-D61AB8F46275"/>
+</associations>
+</Column>
+<Column name="CENTRO_CULTIVO_fecha1" id="84EB08DF-618C-5917-B11A-971C3E70FBB5">
+<createdBy>Nacho</createdBy>
+<createdTime>2026-10-16 07:02:39 UTC</createdTime>
+<generatorID>CACEF436-25AD-2786-5182-F0DEE8DF0491</generatorID>
+<ownerDesignName>Salmones_Fiordo_Azul_vFinal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="82DB9615-294B-C591-D322-0C8BB4000B15" referredColumn="4B118F23-8794-8C2A-1011-EEA7CA02AAE9"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2F0B9610-9FF0-AAD6-C62E-0888BC151D48" name="BARRIO_SANITARIO_PK">
+<createdBy>Nacho</createdBy>
+<createdTime>2026-10-16 07:02:39 UTC</createdTime>
+<generatorID>ECE4EF1C-F845-C191-F794-5B540B4B84BC</generatorID>
+<ownerDesignName>Salmones_Fiordo_Azul_vFinal</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0D46E112-D4E0-C8B2-65EC-82E778D24F06"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="141F1AE3-DC53-6E83-CAB9-F40F15DF6FC0" name="BARRIO_SANITARIO_CENTRO_CULTIVO_FK">
+<createdBy>Nacho</createdBy>
+<createdTime>2026-10-16 07:02:39 UTC</createdTime>
+<generatorID>52DC03E0-662B-F4FB-4E4C-0223982D5F8C</generatorID>
+<ownerDesignName>Salmones_Fiordo_Azul_vFinal</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="05667386-D7B7-3C44-6DF3-1E6AD0A2EAA6"/>
+<colUsage columnID="450F0EF6-7EB0-B7D4-7AD9-7B571A7E42BF"/>
+<colUsage columnID="4E0CDE71-F309-1561-5339-5C8B4782B7D2"/>
+<colUsage columnID="799C9C84-B5B1-613D-C881-2F6C60C4E933"/>
+<colUsage columnID="84EB08DF-618C-5917-B11A-971C3E70FBB5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

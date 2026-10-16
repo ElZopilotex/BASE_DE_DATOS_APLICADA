@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="E4AA8E59-0C9C-6147-A241-D30A6A075E8D" containerWithKeyObject="3FBA1AB9-DBAE-A594-36D9-4E60BEFE9DD8" localFKIndex="410C7A13-E89C-B71A-2DA3-64ED8A929143" name="CAUSA_MORTALIDAD_MORTALIDAD_DIARIA_FK">
+<createdBy>Nacho</createdBy>
+<createdTime>2026-10-16 07:02:39 UTC</createdTime>
+<generatorID>0243739A-7768-7B1C-5B52-3A0259B44C81</generatorID>
+<ownerDesignName>Salmones_Fiordo_Azul_vFinal</ownerDesignName>
+<referredTableLongName>MORTALIDAD_DIARIA</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>66AAEE65-B3DB-30EF-8C47-8AC5914F2180</referredTableID>
+<keyObject>5A8EF218-C0CD-60E8-2912-E683268576A9</keyObject>
+<referredKeyID>5A8EF218-C0CD-60E8-2912-E683268576A9</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>fecha</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

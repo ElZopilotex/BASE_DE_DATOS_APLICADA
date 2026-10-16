@@ -1,0 +1,90 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="43073F2A-66B9-7911-2A60-547C3920B2B5" name="OPERARIO">
+<createdBy>Nacho</createdBy>
+<createdTime>2026-10-16 07:02:39 UTC</createdTime>
+<generatorID>ED66ACFE-7A01-63EE-46D3-2D3837BE2291</generatorID>
+<ownerDesignName>Salmones_Fiordo_Azul_vFinal</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="num_rut" id="1C542146-40E8-B7AC-BC7B-0432EB699703">
+<createdBy>Nacho</createdBy>
+<createdTime>2026-10-16 07:02:39 UTC</createdTime>
+<generatorID>955C854F-10D8-7A21-1A02-D4D358114C74</generatorID>
+<ownerDesignName>Salmones_Fiordo_Azul_vFinal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F87E7FE3-E0DC-9031-DCAD-3AA657C5FFDD" referredColumn="E2E38CC2-B24C-9E66-016A-6974DCEC0E75"/>
+</associations>
+</Column>
+<Column name="area_especialidad" id="113DB286-5DCC-26F8-4BB3-28B4DF302596">
+<createdBy>Nacho</createdBy>
+<createdTime>2026-10-16 07:02:39 UTC</createdTime>
+<generatorID>FDC6A122-BF85-40E5-6A48-ECBFECB331CB</generatorID>
+<ownerDesignName>Salmones_Fiordo_Azul_vFinal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60</dataTypeSize>
+<ownDataTypeParameters>60,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ASIGNACION_CENTRO_fecha_inicio" id="015AB5F4-B675-BB12-7EF6-CDB00DE52893">
+<createdBy>Nacho</createdBy>
+<createdTime>2026-10-16 07:02:39 UTC</createdTime>
+<generatorID>64059F1E-74AD-C70F-34FF-EA1869959B59</generatorID>
+<ownerDesignName>Salmones_Fiordo_Azul_vFinal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="645FCC5B-8B54-0F5A-3850-124215EF001F" referredColumn="638EF7E3-9451-A019-91B0-E7A63B029FB1"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A2FC9D83-9DA2-E2E1-3F22-0585FB0EF14B" name="OPERARIO_PK">
+<createdBy>Nacho</createdBy>
+<createdTime>2026-10-16 07:02:39 UTC</createdTime>
+<generatorID>59AAEFEE-73C5-E486-804F-B036A381B292</generatorID>
+<ownerDesignName>Salmones_Fiordo_Azul_vFinal</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1C542146-40E8-B7AC-BC7B-0432EB699703"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D2B55763-DB08-AB86-C18E-06B44412D260" name="OPERARIO_EMPLEADO_FK">
+<createdBy>Nacho</createdBy>
+<createdTime>2026-10-16 07:02:39 UTC</createdTime>
+<generatorID>FE83C8AD-D582-C365-C1E1-D2276928321B</generatorID>
+<ownerDesignName>Salmones_Fiordo_Azul_vFinal</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1C542146-40E8-B7AC-BC7B-0432EB699703"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5896FC10-F2D8-A1A4-4663-9254143B7D71" name="OPERARIO_ASIGNACION_CENTRO_FK">
+<createdBy>Nacho</createdBy>
+<createdTime>2026-10-16 07:02:39 UTC</createdTime>
+<generatorID>F4D3C95C-C4DA-9EA8-40B1-1DAA9E3FA6D3</generatorID>
+<ownerDesignName>Salmones_Fiordo_Azul_vFinal</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="015AB5F4-B675-BB12-7EF6-CDB00DE52893"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

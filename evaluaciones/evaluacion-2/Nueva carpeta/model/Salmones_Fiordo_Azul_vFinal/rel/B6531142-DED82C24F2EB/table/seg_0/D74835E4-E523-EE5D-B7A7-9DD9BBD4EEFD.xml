@@ -1,0 +1,91 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D74835E4-E523-EE5D-B7A7-9DD9BBD4EEFD" name="MEDICO_VETERINARIO">
+<createdBy>Nacho</createdBy>
+<createdTime>2026-10-16 07:02:39 UTC</createdTime>
+<generatorID>1820C01B-D745-29FB-FF32-75D5C0DBF37C</generatorID>
+<ownerDesignName>Salmones_Fiordo_Azul_vFinal</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="num_rut" id="228D4FC1-9442-5C79-8A55-C775B6AEE120">
+<createdBy>Nacho</createdBy>
+<createdTime>2026-10-16 07:02:39 UTC</createdTime>
+<generatorID>955C854F-10D8-7A21-1A02-D4D358114C74</generatorID>
+<ownerDesignName>Salmones_Fiordo_Azul_vFinal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6E62643F-BFF9-A6DA-0D7E-5ED5601C9460" referredColumn="E2E38CC2-B24C-9E66-016A-6974DCEC0E75"/>
+</associations>
+</Column>
+<Column name="num_registro_colegio" id="A9FC53C4-265D-78BE-ECEF-9F0DEA113E4B">
+<createdBy>Nacho</createdBy>
+<createdTime>2026-10-16 07:02:39 UTC</createdTime>
+<generatorID>88807D80-4785-8E4E-3661-C8AC2354E218</generatorID>
+<ownerDesignName>Salmones_Fiordo_Azul_vFinal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TRATAMIENTO_SANITARIO_id_tratamiento" id="D43B20E4-5F70-F69A-C50A-3E543A15C06B">
+<createdBy>Nacho</createdBy>
+<createdTime>2026-10-16 07:02:39 UTC</createdTime>
+<generatorID>05E73998-8895-32B2-8745-2C96E65A867D</generatorID>
+<ownerDesignName>Salmones_Fiordo_Azul_vFinal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="32B7B200-CA05-6C9F-525E-3D092A4275E4" referredColumn="3010984C-BD8C-6217-E04E-C0E6FA015F01"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A73CA9DB-098A-0993-AC73-20E08B25D493" name="MEDICO_VETERINARIO_PK">
+<createdBy>Nacho</createdBy>
+<createdTime>2026-10-16 07:02:39 UTC</createdTime>
+<generatorID>59AAEFEE-73C5-E486-804F-B036A381B292</generatorID>
+<ownerDesignName>Salmones_Fiordo_Azul_vFinal</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="228D4FC1-9442-5C79-8A55-C775B6AEE120"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="22DBC3B6-D616-4B64-B80F-1C1B61FA766D" name="MEDICO_VETERINARIO_EMPLEADO_FK">
+<createdBy>Nacho</createdBy>
+<createdTime>2026-10-16 07:02:39 UTC</createdTime>
+<generatorID>0698977A-5EFB-F012-6163-CC70219590BD</generatorID>
+<ownerDesignName>Salmones_Fiordo_Azul_vFinal</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="228D4FC1-9442-5C79-8A55-C775B6AEE120"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="AC7BC2E9-120A-9FEF-3A6F-EF95C081D40F" name="MEDICO_VETERINARIO_TRATAMIENTO_SANITARIO_FK">
+<createdBy>Nacho</createdBy>
+<createdTime>2026-10-16 07:02:39 UTC</createdTime>
+<generatorID>7F36D610-5208-0A9D-7E23-2359F14A7BA8</generatorID>
+<ownerDesignName>Salmones_Fiordo_Azul_vFinal</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D43B20E4-5F70-F69A-C50A-3E543A15C06B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="645FCC5B-8B54-0F5A-3850-124215EF001F" containerWithKeyObject="43073F2A-66B9-7911-2A60-547C3920B2B5" localFKIndex="5896FC10-F2D8-A1A4-4663-9254143B7D71" name="OPERARIO_ASIGNACION_CENTRO_FK">
+<createdBy>Nacho</createdBy>
+<createdTime>2026-10-16 07:02:39 UTC</createdTime>
+<generatorID>F4D3C95C-C4DA-9EA8-40B1-1DAA9E3FA6D3</generatorID>
+<ownerDesignName>Salmones_Fiordo_Azul_vFinal</ownerDesignName>
+<referredTableLongName>ASIGNACION_CENTRO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>AE21204D-386F-43CE-7E71-20FDC35E1936</referredTableID>
+<keyObject>FD68B2AC-97B8-250C-53A6-A9568E1AEB8B</keyObject>
+<referredKeyID>FD68B2AC-97B8-250C-53A6-A9568E1AEB8B</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>fecha_inicio</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

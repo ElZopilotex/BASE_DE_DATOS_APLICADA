@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="CC426900-18D1-0014-0276-D69052900551" containerWithKeyObject="14898B4A-FE38-51A2-40D0-F66CD1CB4CD1" localFKIndex="B322A94E-BC43-91EF-6D04-0D2F68741BAB" name="PISCICULTURA_LOTE_FK">
+<createdBy>Nacho</createdBy>
+<createdTime>2026-10-16 07:02:39 UTC</createdTime>
+<generatorID>36DD4665-71AB-0AB3-F611-922610C9DA53</generatorID>
+<ownerDesignName>Salmones_Fiordo_Azul_vFinal</ownerDesignName>
+<referredTableLongName>LOTE</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>F930F007-0093-52F1-B976-4DE3280E2B39</referredTableID>
+<keyObject>18690C62-813C-954E-D415-48DEF536C079</keyObject>
+<referredKeyID>18690C62-813C-954E-D415-48DEF536C079</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_lote,ALIMENTACION_DIARIA_fecha,MORTALIDAD_DIARIA_fecha</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

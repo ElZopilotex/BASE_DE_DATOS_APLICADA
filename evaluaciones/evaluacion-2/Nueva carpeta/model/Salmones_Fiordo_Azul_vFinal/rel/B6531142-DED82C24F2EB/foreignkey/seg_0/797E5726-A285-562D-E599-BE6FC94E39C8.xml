@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="797E5726-A285-562D-E599-BE6FC94E39C8" containerWithKeyObject="F930F007-0093-52F1-B976-4DE3280E2B39" localFKIndex="9419EE2D-A3A7-BE86-EADA-B5E61F659860" name="LOTE_TRATAMIENTO_SANITARIO_FK">
+<createdBy>Nacho</createdBy>
+<createdTime>2026-10-16 07:02:39 UTC</createdTime>
+<generatorID>69CBA6F9-F40C-4957-8466-A842C6B0BDDD</generatorID>
+<ownerDesignName>Salmones_Fiordo_Azul_vFinal</ownerDesignName>
+<referredTableLongName>TRATAMIENTO_SANITARIO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>0CA85B71-1BEA-07AA-65BF-D6F554082071</referredTableID>
+<keyObject>4E6088C1-E15E-DC2F-9F2A-994D62973D7C</keyObject>
+<referredKeyID>4E6088C1-E15E-DC2F-9F2A-994D62973D7C</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_tratamiento</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

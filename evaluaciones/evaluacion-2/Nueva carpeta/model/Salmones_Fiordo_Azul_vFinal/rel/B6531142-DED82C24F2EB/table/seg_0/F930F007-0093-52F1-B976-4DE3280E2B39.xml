@@ -1,0 +1,194 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F930F007-0093-52F1-B976-4DE3280E2B39" name="LOTE">
+<createdBy>Nacho</createdBy>
+<createdTime>2026-10-16 07:02:39 UTC</createdTime>
+<generatorID>E3DE5682-8B23-D6B7-BE0C-77EC1FFEC224</generatorID>
+<ownerDesignName>Salmones_Fiordo_Azul_vFinal</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_lote" id="2795D8F0-0ADD-4301-4552-AA6E81F9E2CE">
+<createdBy>Nacho</createdBy>
+<createdTime>2026-10-16 07:02:39 UTC</createdTime>
+<generatorID>E116686A-1D1C-D8E6-D388-67AF52E24F30</generatorID>
+<ownerDesignName>Salmones_Fiordo_Azul_vFinal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha_siembra" id="E95C47B3-C384-D5E2-853D-4103F9792C5F">
+<createdBy>Nacho</createdBy>
+<createdTime>2026-10-16 07:02:39 UTC</createdTime>
+<generatorID>B43ED514-952C-5126-0E95-D86C10343137</generatorID>
+<ownerDesignName>Salmones_Fiordo_Azul_vFinal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cantidad_peces" id="C42A3B5C-1671-03C3-E36B-68C737BF25A7">
+<createdBy>Nacho</createdBy>
+<createdTime>2026-10-16 07:02:39 UTC</createdTime>
+<generatorID>5C81A865-70AF-1C9A-D1BF-7D51134B7915</generatorID>
+<ownerDesignName>Salmones_Fiordo_Azul_vFinal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="peso_promedio_inicial_g" id="8F827FE0-768B-4EA9-E13D-556F1C8B70B0">
+<createdBy>Nacho</createdBy>
+<createdTime>2026-10-16 07:02:39 UTC</createdTime>
+<generatorID>6A987DA9-39A8-199C-0A4F-F35610A1673C</generatorID>
+<ownerDesignName>Salmones_Fiordo_Azul_vFinal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,8,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha_cierre" id="5E37D656-FC42-70B7-A003-108F8E74B4EF">
+<createdBy>Nacho</createdBy>
+<createdTime>2026-10-16 07:02:39 UTC</createdTime>
+<generatorID>D4B10006-10DB-25DA-3E21-C71E504B74A8</generatorID>
+<ownerDesignName>Salmones_Fiordo_Azul_vFinal</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ALIMENTACION_DIARIA_fecha" id="B5D37492-0B5E-6A98-DE45-412CC8B9D415">
+<createdBy>Nacho</createdBy>
+<createdTime>2026-10-16 07:02:39 UTC</createdTime>
+<generatorID>5E5054D1-A2E6-A0F3-E1AB-A3C94E9BBABC</generatorID>
+<ownerDesignName>Salmones_Fiordo_Azul_vFinal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="09BDA283-B45B-AE2E-F959-3A09CE2A9D71" referredColumn="194C11A6-9074-D607-11E0-B4AC5CAFB79A"/>
+</associations>
+</Column>
+<Column name="MORTALIDAD_DIARIA_fecha" id="2362402A-ABC4-EE2E-2CB4-3D7423058BB2">
+<createdBy>Nacho</createdBy>
+<createdTime>2026-10-16 07:02:39 UTC</createdTime>
+<generatorID>075FD708-9CB0-C433-67FC-9D51BE81FF90</generatorID>
+<ownerDesignName>Salmones_Fiordo_Azul_vFinal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4F913CDE-63B7-54B4-B386-E96699367EA4" referredColumn="A9B5B0B5-478F-9E2A-CEFD-8F8DCC95735F"/>
+</associations>
+</Column>
+<Column name="TRATAMIENTO_SANITARIO_id_tratamiento" id="6C1E8287-0F9E-A9CB-B0BB-F21D8109285B">
+<createdBy>Nacho</createdBy>
+<createdTime>2026-10-16 07:02:39 UTC</createdTime>
+<generatorID>AF3F9086-8566-C5A8-1899-C389841E7926</generatorID>
+<ownerDesignName>Salmones_Fiordo_Azul_vFinal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="797E5726-A285-562D-E599-BE6FC94E39C8" referredColumn="3010984C-BD8C-6217-E04E-C0E6FA015F01"/>
+</associations>
+</Column>
+<Column name="COSECHA_id_cosecha" id="1CC3D52E-F0B5-0510-0608-C8A50844A934">
+<createdBy>Nacho</createdBy>
+<createdTime>2026-10-16 07:02:39 UTC</createdTime>
+<generatorID>BB1BB1F1-ACE2-B2D6-0115-27E92FD93B4A</generatorID>
+<ownerDesignName>Salmones_Fiordo_Azul_vFinal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5F2D561D-5AF8-E814-2D27-79812F6B2CE0" referredColumn="D50E705A-2B2C-C142-F89A-C28CE82713CC"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="18690C62-813C-954E-D415-48DEF536C079" name="LOTE_PK">
+<createdBy>Nacho</createdBy>
+<createdTime>2026-10-16 07:02:39 UTC</createdTime>
+<generatorID>3D5CEAC2-8F0C-C6E6-2E65-CBF063E58E75</generatorID>
+<ownerDesignName>Salmones_Fiordo_Azul_vFinal</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2795D8F0-0ADD-4301-4552-AA6E81F9E2CE"/>
+<colUsage columnID="B5D37492-0B5E-6A98-DE45-412CC8B9D415"/>
+<colUsage columnID="2362402A-ABC4-EE2E-2CB4-3D7423058BB2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7E4E7765-EC8E-74DD-ED47-1207323C9F68" name="LOTE_MORTALIDAD_DIARIA_FK">
+<createdBy>Nacho</createdBy>
+<createdTime>2026-10-16 07:02:39 UTC</createdTime>
+<generatorID>95094C47-86D2-FA21-E686-95483304A201</generatorID>
+<ownerDesignName>Salmones_Fiordo_Azul_vFinal</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2362402A-ABC4-EE2E-2CB4-3D7423058BB2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9419EE2D-A3A7-BE86-EADA-B5E61F659860" name="LOTE_TRATAMIENTO_SANITARIO_FK">
+<createdBy>Nacho</createdBy>
+<createdTime>2026-10-16 07:02:39 UTC</createdTime>
+<generatorID>69CBA6F9-F40C-4957-8466-A842C6B0BDDD</generatorID>
+<ownerDesignName>Salmones_Fiordo_Azul_vFinal</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6C1E8287-0F9E-A9CB-B0BB-F21D8109285B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BE11970E-A26D-CBAE-8E45-D56CD52B4496" name="LOTE_COSECHA_FK">
+<createdBy>Nacho</createdBy>
+<createdTime>2026-10-16 07:02:39 UTC</createdTime>
+<generatorID>EDC4FC44-7122-6B19-E94A-95BED1FD82B5</generatorID>
+<ownerDesignName>Salmones_Fiordo_Azul_vFinal</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1CC3D52E-F0B5-0510-0608-C8A50844A934"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="94F3D2E8-93A8-E938-A0F2-1ADC3063E07C" name="LOTE_ALIMENTACION_DIARIA_FK">
+<createdBy>Nacho</createdBy>
+<createdTime>2026-10-16 07:02:39 UTC</createdTime>
+<generatorID>224B6F12-5120-17F1-D87F-5DBCC01A894F</generatorID>
+<ownerDesignName>Salmones_Fiordo_Azul_vFinal</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B5D37492-0B5E-6A98-DE45-412CC8B9D415"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
